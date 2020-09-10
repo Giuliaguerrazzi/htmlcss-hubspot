@@ -50,7 +50,7 @@ header .menu-about {
 }
 
 /* Introduzione */
-section {
+figure {
   position: relative;
   background: green;
   height: 400px;
@@ -81,4 +81,24 @@ h2 {
   height: 200px;
   background: orange;
   margin: auto;
+}
+
+.colonne {
+  margin: auto 90px;
+}
+
+.colonne::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-left,
+.col-center,
+.col-right {
+  float: left;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  background: #ffff66;
 }
