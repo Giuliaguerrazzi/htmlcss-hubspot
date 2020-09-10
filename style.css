@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 1000px;
+  height: 100px;
+  background: red;
+  margin: auto 50px;
+  max-width: 100%;
+}
+
+/* Intestazione */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header .language {
+  float: left;
+}
+
+.language, .login{
+  background: orange;
+  height: 90px;
+  width: 400px;
+  border: solid 2px black;s
+
+}
+
+header .login {
+  float: right;
+}
+
+header .logo {
+  float: left;
+}
+
+header .menu-about {
+  float: right;
+}
+
+.logo, .menu-about {
+  background: orange;
+  height: 90px;
+  width: 400px;
+}
