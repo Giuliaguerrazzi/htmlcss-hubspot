@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #container{
@@ -9,10 +10,9 @@
   max-width: 100%;
   margin: 20px auto;
   height: 100px;
-  background: red;
 }
 
-/* login e Menu */
+/* login e Language */
 header::after {
   content: '';
   display: table;
@@ -23,14 +23,54 @@ header .language {
   float: left;
 }
 
-.language, .login{
-  background: orange;
-  height: 90px;
-  width: 400px;
-  border: solid 2px black;s
-
+header .login {
+  float: right;
 }
 
+.elements {
+  background: #efefef;
+  height: 90px;
+}
+
+.language, .login{
+  margin: auto;
+  padding: 30px;
+  width: 40%;
+}
+
+#globe {
+  padding: 5px;
+}
+
+#search {
+  color: #05abc5;
+}
+
+.log{
+background-color: white;
+color:  #ff7a59;;
+border: 1px solid  #ff7a59;
+border-radius: 5px;
+padding: 7px;
+margin-left: 20px;
+}
+
+.gethubspotfree {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+
+/* Menu */
+.menu {
+  background: #fdfbfb;
+  height: 90px;
+  padding: 30px;
+}
 header .login {
   float: right;
 }
@@ -44,11 +84,17 @@ header .menu-about {
 }
 
 .logo, .menu-about {
-  background: orange;
-  height: 90px;
-  width: 400px;
+  width: 50%;
 }
 
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  padding: 10px;
+}
 /* Introduzione */
 figure {
   position: relative;
