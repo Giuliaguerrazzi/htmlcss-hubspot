@@ -45,7 +45,15 @@ header .login {
 .english {
   border: none;
   background: none;
-  
+  font-size: 15px;
+}
+
+.contact {
+  padding: 15px;
+}
+
+.contact:hover {
+  background: #cecece;
 }
 
 #search {
