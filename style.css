@@ -42,6 +42,12 @@ header .login {
   padding: 5px;
 }
 
+.english {
+  border: none;
+  background: none;
+  
+}
+
 #search {
   color: #05abc5;
 }
