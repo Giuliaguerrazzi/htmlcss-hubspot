@@ -179,23 +179,78 @@ height: 250px;
 .powerful {
 margin: auto;
 text-align: center;
-width: 750px;
+width: 790px;
 height: 360px;
 margin-bottom: 25px;
 }
 
 .powerful-p {
-  padding-top: 20px;
+  margin: 0 30px;
+  padding: 20px;
   font-size: 12px;
 }
 
 .boxcenter {
-  width: 750px;
-  height: 200px;
+  width: 770px;
+  height: 250px;
   background: white;
   margin: auto;
+  padding: 15px;
 }
 
+.gethubspotfree3 {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding:10px 20px;
+  margin-left: 25px;
+}
+
+.boxcenter::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.book {
+  width: 170px;
+  height: 120px;
+  float: left;
+}
+
+.book2 {
+  width: 150px;
+  height: 100px;
+  margin: 20px 20px;
+}
+
+.free-hubspot {
+  float: right;
+  width: 530px;
+  padding: 10px;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.free-hubspot h3,
+.free-hubspot p{
+  margin-bottom: 10px;
+}
+
+
+/* Elenco */
+
+.popolar ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin-left: 5px;
+}
+
+.popolar i {
+  color:orange;
+}
 
 
 .colonne {
@@ -220,7 +275,7 @@ margin-bottom: 25px;
 
 /* learn and grow */
 section {
-  background: #31a0ff;
+background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 .boxs::after {
   content: '';
@@ -243,7 +298,6 @@ section {
   float: left;
   width: 100px;
   height: 100px;
-  background: #31a0ff;
   border: 2px solid black;
 }
 
