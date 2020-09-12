@@ -283,10 +283,57 @@ margin-bottom: 25px;
   margin-left: 6%;
 }
 
+.col-left {
+  padding: 10px;}
+
 .col-left img {
 width: 150px;
 height: 100px;
 padding: 10px;
+transform: translate(17%);
+}
+
+.marketing{
+  text-align: center;
+  padding: 10px;
+  line-height: 15px;
+}
+
+.col-left h3,
+.col-left p {
+  margin-bottom: 30px;
+}
+
+.col-left p{
+  font-size: 12px;
+}
+
+.col-left h4 {
+  margin: 25px 0;
+}
+
+.pop-list h4{
+  text-align: center;
+}
+
+.pop-list i {
+  color: orange;
+}
+
+.pop-list ul li {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  line-height: normal;
+}
+
+.learnmore {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding:15px 25px;
+  margin: 25px 35px;
 }
 
 
