@@ -394,8 +394,19 @@ section .subtitle {
 .box6,
 .box7,
 .box8{
-  border: 1px solid white;
   width: 200px;
+}
+
+.box1, .box3, .box5 {
+  border-right: 1px solid white;
+}
+
+.box2, .box4, .box6 {
+  border-right: 1px solid white;
+}
+
+.box2, .box4, .box6, .box8 {
+  border-top: 1px solid white;
 }
 
 .col-box1, .col-box2,
