@@ -304,6 +304,7 @@ transform: translate(17%);
   line-height: 15px;
 }
 
+
 .col-left h3, .col-left p,
 .col-center h3, .col-center p,
 .col-right h3, .col-right p {
@@ -378,7 +379,7 @@ section .subtitle {
 .boxs {
   width: 100%;
   margin: auto 20%;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .line-boxs {
@@ -439,9 +440,7 @@ section .subtitle {
 
 /* Article */
 
-article {
-  height: 300px;
-}
+article
 
 .row::after {
   content: '';
@@ -449,11 +448,8 @@ article {
   clear: both;
 }
 
-.customers {
-  float: left;
-  width: 400px;
-  margin: 0 10%;
-  padding: 20px;
+.customers, .partner {
+  padding: 30px;
 }
 
 .customers h2 {
@@ -464,26 +460,73 @@ article {
 .customers p {
   margin: 0 80px;
 }
+
+.customers {
+  float: left;
+  width: 40%;
+}
+
 .partner {
   float: right;
-  width: 400px;
-  border: 2px solid black;
-  margin: 0 10%;
-  padding: 20px;
+  width: 60%;
 }
 
 .partner img {
-  width: 110px;
- height: 30px;
+  margin-right: 5px;
+}
+
+.atlassian {
+  width: 150px;
+  height: 30px;
+}
+
+.doordash, .wistia {
+  width: 150px;
+  height: 25px;
+}
+
+.g2, .purple {
+  width: 150px;
+  height: 45px;
+}
+
+.subaru {
+  width: 150px;
+  height: 50px;
+}
+
+.classpass {
+  width: 130px;
+  height: 50px;
+}
+
+.vmware {
+  width: 170px;
+  height: 50px;
+}
+
+
+
+.row2::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.start-growing, .image {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .start-growing {
-  border: 2px solid black;
+  float: left;
 }
 
 .image {
-  border: 2px solid black;
+  float: right;
 }
+
 
 /* Footer */
 
